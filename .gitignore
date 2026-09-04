@@ -1,0 +1,110 @@
+# Operating system files
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+Desktop.ini
+
+# Editors and IDEs
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/tasks.json
+!.vscode/launch.json
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+*.local
+*.secret
+
+# Logs and runtime files
+*.log
+logs/
+log/
+*.pid
+*.seed
+*.pid.lock
+
+# Dependencies and package-manager caches
+node_modules/
+.pnpm-store/
+.yarn/cache/
+.yarn/install-state.gz
+vendor/
+
+# JavaScript / TypeScript
+coverage/
+.nyc_output/
+dist/
+build/
+out/
+.next/
+.nuxt/
+.turbo/
+.cache/
+*.tsbuildinfo
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+ENV/
+
+# Java / Kotlin / Gradle
+.gradle/
+target/
+*.class
+*.jar
+*.war
+
+# .NET
+[Bb]in/
+[Oo]bj/
+*.userprefs
+
+# Go
+bin/
+
+# Ruby
+.bundle/
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Test and tool output
+test-results/
+playwright-report/
+artifacts/
+
+# Local databases and generated data
+*.sqlite
+*.sqlite3
+*.db
+tmp/
+temp/
+
+# Archives and packaged output
+*.7z
+*.gz
+*.zip
+*.tar
+*.tgz
+*.rar
+
